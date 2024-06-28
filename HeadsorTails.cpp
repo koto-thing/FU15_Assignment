@@ -35,4 +35,9 @@ int main()
     }
 
     cout << "Heads: " << headsCounter << ", Tails: " << tailsCounter << "\n";
+
+    if(headsCounter > tailsCounter)
+        cout << "You won\n";
+    else if(tailsCounter > headsCounter)
+        cout << "You lost\n";
 }
